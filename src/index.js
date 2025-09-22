@@ -10,7 +10,7 @@ root.render(
         <App />
     </React.StrictMode>
 );
-export { default as MKT_DI_05_00 } from "./components/MKT-DI-05-00/MKT-DI-05-00";
+export { default as MKTDI0500 } from "./components/MKT-DI-05-00/MKT-DI-05-00";
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
