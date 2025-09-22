@@ -1,0 +1,60 @@
+.quotation-container {
+
+    p,
+    h4,
+    h3 {
+        padding: 0;
+        margin: 2px 0;
+    }
+
+    .section-heading {
+        page-break-after: avoid;
+    }
+
+    .quotation-header,
+    .product-description-block,
+    .terms-block,
+    .quotation-footer {
+        page-break-inside: avoid;
+    }
+
+    .product-table-container {
+        table {
+            border-collapse: collapse;
+            width: 100%;
+
+            thead {
+                page-break-inside: avoid;
+            }
+
+            th,
+            td {
+                border: 1px solid #000;
+                padding: 2px;
+            }
+
+            th {
+                background-color: #1d1d41;
+                color: #fff;
+            }
+        }
+    }
+
+    .details-row {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+
+        td {
+            padding: 0;
+            vertical-align: middle;
+        }
+    }
+}
+
+.qoutation-preview-table tr:nth-child(even) {
+    background-color: rgb(248, 246, 246);
+}
+
+.qoutation-preview-table tr:nth-child(odd) {
+    background-color: rgb(228, 226, 226);
+}
